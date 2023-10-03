@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-text {
+    position: relative;
+    z-index: 99;
+  }
+  
+  #header {
+    background: url(../img/uranus.gif);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
+  #header h1 {
+    color: white;
+    font-size: 90px;
+  }
+  
+  #second {
+    background-color: rgb(33, 33, 33);
+    height: 10vh;
+  }
+  
+  #second .col-md-4 {
+    background-color: rgb(33, 33, 33);
+  }
+  
+  #second h6 {
+    color:lightskyblue;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  #second h3 {
+    color: white;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  @media only screen and (max-width: 767px) {
+    #second {
+      background-color: rgb(33, 33, 33);
+      height: 32vh;
+    }
+    #second .col-md-4{
+      border: none !important;
+    }
+  }
+  
+  #third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #fourth {
+    background-color: skyblue;
+  }
+  
+  #fourth .col-lg-4 {
+    border: 1px solid black;
+  }
+  
+  #fourth i {
+    color: antiquewhite;
+  }
+  
+  #footer {
+    background: url(../img/footer.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+  }
+  
